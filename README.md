@@ -73,7 +73,7 @@ Label final ditentukan melalui logika *weighted voting* dan prioritas berdasarka
 import pandas as pd
 
 # Memuat dataset yang sudah dilabeli (file utama)
-df = pd.read_csv('labeled_data_hybrid.csv')
+df = pd.read_csv('hybrid_labeled_data.csv')
 
 # Melihat 5 baris pertama
 print(df[['clean_text', 'sentiment_label']].head())
