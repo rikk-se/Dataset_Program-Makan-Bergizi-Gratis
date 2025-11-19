@@ -11,7 +11,7 @@ Fokus dari repositori ini adalah untuk menyediakan dataset yang sudah bersih dan
 Kami menyediakan dua file CSV utama untuk transparansi proses:
 
 1.  `preprocessed_data.csv`
-2.  `labeled_data_hybrid.csv`
+2.  `hybrid_labeled_data.csv`
 
 ---
 
@@ -29,7 +29,7 @@ File ini berisi data tweet yang telah melalui seluruh tahapan preprocessing, nam
 
 ---
 
-### 2. `labeled_data_hybrid.csv`
+### 2. `hybrid_labeled_data.csv`
 
 File ini adalah dataset **final** yang digunakan untuk melatih model *machine learning* dalam penelitian kami. File ini berisi data dari `preprocessed_data.csv` yang telah ditambahi dengan label sentimen yang dihasilkan oleh metode *hybrid*.
 
